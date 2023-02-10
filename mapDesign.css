@@ -1,0 +1,38 @@
+/* 
+h1 {
+  padding-top: 1%;
+  width:500px;
+  margin: 0 auto;
+  background: gray;
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+padding-top: 1%;
+width:500px;
+margin: 0 auto;
+background: gray;
+font-size: 50px;
+text-align: center;
+} */
+
+#slide_in {
+  height: 10%
+}
+
+.map_cl {
+  /* /* position: absolute; */
+  height: 90%;
+  width: 100%;
+  /* overflow-x: hidden; */ 
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

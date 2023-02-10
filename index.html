@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>GreenAI</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="../proj4js-2.8.0/dist/proj4.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./mapDesign.css" />
+    <script type="module" src="./greenAI.js"></script>
+  </head>
+  <body>
+
+    <div id="slide_in" class="sub_page">
+      <!-- <title>GreenAI</title> -->
+      <h1>GreenAI</h1>
+      <h3>Use this tool to find the Green Area Index of an area. Circle the area your interested of withs the polygon tool, and watch the AI do it's magic</h3>
+
+      <img id="myImg" src="">
+      <img id="myMask" src="">
+    </div>
+
+    <div id="map" class="map_cl">
+    </div>
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH8ZticCPVIPP5USPMsXdnRbmAEjTmlZU&callback=initMap&libraries=drawing&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
+
